@@ -13,10 +13,10 @@ Please spend a maximum of four hours working on it.
 We don’t expect everyone to complete everything in the time allocated, so use it as a chance to show how you prioritise. Think of this as an opportunity to show us what you can do. If there is anything you can’t do, or run out of time to do, leave a comment in the markup to mention why you left it left out.
 
 - Fork this repository
-- Commit your changes and push them to Bitbucket
-- Create a pull request in Bitbucket so we can review your work
+- Commit your changes and push them to GitHub
+- Create a pull request in GitHub so we can review your work
 
-If you have trouble with using git and BitBucket, please zip up your project and upload to: https://spaces.hightail.com/uplink/dewvisualcommunications.
+If you have trouble with using git and GitHub, please zip up your project and upload to: https://spaces.hightail.com/uplink/dewvisualcommunications.
 
 ### Considerations
 
