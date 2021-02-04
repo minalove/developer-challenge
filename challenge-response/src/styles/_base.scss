@@ -10,3 +10,33 @@ body {
   margin: 0;
   width: 100vw;
 }
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-bottom: 3.5rem;
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    border-bottom: $secondary-color 1px solid;
+    width: 50px;
+    bottom: -1rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
