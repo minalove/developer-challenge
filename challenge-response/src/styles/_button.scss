@@ -1,0 +1,17 @@
+.button,
+a.button {
+  background-color: #f2595e;
+  color: white;
+  transition: background 0.25s;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.825rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  &:hover,
+  &:active {
+    background-color: darken($secondary-color, 10);
+  }
+}

@@ -1,0 +1,36 @@
+.topnav {
+  height: 5rem;
+  position: absolute;
+  width: 100%;
+  border-bottom: rgba(#fff, 0.1) 1px solid;
+  z-index: 1;
+}
+
+nav {
+  position: relative;
+  ul {
+    position: absolute;
+    right: 0.5rem;
+    top: 1rem;
+    list-style: none;
+    li {
+      display: inline-block;
+      margin: 0.5rem 0.3rem;
+      a {
+        transition: color 0.4s;
+        color: rgba(#fff, 0.9);
+        display: inline-block;
+        padding: 0.2rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 1px;
+        &:hover,
+        &:active {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

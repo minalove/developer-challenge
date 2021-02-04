@@ -1,0 +1,30 @@
+.banner {
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.banner__textbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 80%;
+  color: white;
+  text-align: center;
+
+  h1 {
+    font-weight: 200;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.banner__subTitle {
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}

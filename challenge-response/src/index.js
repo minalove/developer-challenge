@@ -6,7 +6,7 @@ import './styles/index.scss'
 
 const $ = window.jQuery
 
-$(function () {
+$(() => {
   $('.slider').slick({
     arrows: false,
     fade: true,
