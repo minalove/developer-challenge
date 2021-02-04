@@ -50,3 +50,46 @@
     margin: 2rem 0 1rem;
   }
 }
+
+.card__photo {
+  background-size: cover;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.card__date {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.card__read-more {
+  color: $secondary-color;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  &:hover,
+  &:active {
+    color: darken($secondary-color, 10);
+  }
+}
+
+.cards--photo {
+  .card {
+    text-align: left;
+    border: none;
+    &:hover,
+    &:active {
+      background-color: inherit;
+      color: inherit;
+    }
+  }
+  header {
+    margin-top: 1rem;
+  }
+
+  p.card__flex-space {
+    margin: 1rem 0;
+  }
+}
